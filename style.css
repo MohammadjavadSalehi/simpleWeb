@@ -1,0 +1,26 @@
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+body{
+    background-color: grey;
+}
+nav{
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+}
+.here{
+    color: white;
+}
